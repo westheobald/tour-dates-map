@@ -1,0 +1,68 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap);
+
+html {
+  color: #222;
+  background-color: #333;
+  font-size: 1em;
+  line-height: 1.4;
+  font-family: Montserrat, sans-serif;
+}
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+  vertical-align: middle;
+}
+.hidden,
+[hidden] {
+  display: none !important;
+}
+#mapid {
+  height: 100vh;
+  width: 100vw;
+}
+.artist__container {
+  height: 300px;
+  width: 98%;
+  max-width: 600px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+  align-items: center;
+  transform: translate(-50%, -50%);
+  background-color: #ececec;
+  color: #000;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
+#artist__form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: right;
+  column-gap: 20px;
+  margin: 0 20px;
+}
+h1 {
+  margin: 0;
+  font-weight: 100;
+}
+
+html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  margin: 0;
+}
+main {
+  display: block;
+}
+textarea {
+  overflow: auto;
+}
